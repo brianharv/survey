@@ -12,22 +12,26 @@
     <h1>Personal Survey</h1>
     <p></p>
       <!--Submit Form-->
-    <form id="username">
+    <form id="userName">
       <div class="form-group">
         <label for="firstname">First Name</label>
-        <input id="firstname" class="form-info" type="text">
+        <input id="firstname" class="form-control" type="text">
       </div>
       <div class="form-group">
         <label for="lastname">Last Name</label>
-        <input id="lastname" class="form-info" type="text">
+        <input id="lastname" class="form-control" type="text">
       </div>
       <div class="form-group">
         <label for="favfood">Favorite Food</label>
-        <input id="favfood" class="form-info" type="text">
+        <input id="favfood" class="form-control" type="text">
       </div>
       <button type="submit" class="btn">Submit</button>
     </form>
+    <div id="return">
+      <p>thank you!</p>
+    </div>
     <!--Select Box-->
+    <h2>What is your favorite genre of music?</h2>
     <form id="usermusic">
       <div class="selbox-group">
         <select class="form-control" id="music">
@@ -41,7 +45,7 @@
       </div>
     </form>  
     <!--Radio Button--> 
-    <h1>How did you hear about this survey?</h1> 
+    <h2>How did you hear about this survey?</h2> 
     <div class="radio">
       <label>
         <input type="radio" name="how" value="Coworker">
@@ -62,13 +66,14 @@
     </div>
     <div class="radio">
       <label>
-        <input tpye="radio" name="how" value="Other">
+        <input type="radio" name="how" value="other">
         Other
       </label>
     </div>
+    <p></p>
     <!--Date of Birth-->
     <div class="form-group">
-      <label for="born">Date of birth:</label>
+      <label for="born"><strong>Date of birth:</strong></label>
       <input id="born" class="form-control" type="date">
     </div>
     <!--Color-->
