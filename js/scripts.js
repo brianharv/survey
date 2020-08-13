@@ -18,3 +18,5 @@ $(document).ready(function() {
   const favoriteColor = $("#color").val();
 
 });
+
+//THIS PROJECT NEEDS MORE FORM TAGS 
